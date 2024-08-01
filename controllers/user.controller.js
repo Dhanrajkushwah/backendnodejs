@@ -4,7 +4,7 @@ const status = require("../config/status");
 // Add user
 exports.create = async (req, res) => {
     try {
-        var obj = {
+        const obj = {
             firstName: req.body.firstName,
             lastName: req.body.lastName,
             phoneNumber: req.body.phoneNumber,
